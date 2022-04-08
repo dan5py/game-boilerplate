@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fps-counter {
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+    padding: .2vw 1vw;
+    background-color: white;
+    font-family: monospace;
+    font-size: 1.4vw;
+    text-align: center;
+    z-index: 9999;
+    border-radius: 1vw;
+}
+
+.unselectable {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
